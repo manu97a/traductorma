@@ -1,11 +1,15 @@
 [tool.poetry]
 name = "traductorma"
-version = "0.1.0"
+version = "0.0.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+translate = "^3.5.0"
+
+[tool.poetry.scripts]
+traductorma = 'traductorma.__main__:main'
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
