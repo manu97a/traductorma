@@ -3,6 +3,14 @@ name = "traductorma"
 version = "0.0.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
+keywords = ["keyword", "another_keyword"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/manu97a/traductorma"
+repository = "https://github.com/manu97a/traductorma"
+include = [
+    "LICENSE",
+]
 
 [tool.poetry.dependencies]
 python = "^3.8"
